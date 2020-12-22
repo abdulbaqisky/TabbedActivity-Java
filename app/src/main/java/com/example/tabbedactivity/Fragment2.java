@@ -1,4 +1,4 @@
-package com.example.tabbedactivity.ui.main;
+package com.example.tabbedactivity;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -11,10 +11,10 @@ import androidx.fragment.app.Fragment;
 
 import com.example.tabbedactivity.R;
 
-public class Fragment3 extends Fragment {
+public class Fragment2 extends Fragment {
   @Nullable
   @Override
   public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-    return inflater.inflate(R.layout.fragment3_layout, container, false);
+    return inflater.inflate(R.layout.fragment2_layout, container, false);
   }
 }
